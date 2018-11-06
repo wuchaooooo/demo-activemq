@@ -1,4 +1,4 @@
-package com.wuchaooooo.study.activemq;
+package com.wuchaooooo.study.activemq.config;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.transport.TransportListener;

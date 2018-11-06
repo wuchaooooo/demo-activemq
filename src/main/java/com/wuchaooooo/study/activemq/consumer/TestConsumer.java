@@ -1,4 +1,4 @@
-package com.wuchaooooo.study.activemq;
+package com.wuchaooooo.study.activemq.consumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

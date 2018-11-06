@@ -5,7 +5,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.wuchaooooo.study.activemq"/>
+    <context:component-scan base-package="com.wuchaooooo.study.activemq.config"/>
+    <context:component-scan base-package="com.wuchaooooo.study.activemq.consumer"/>
+    <context:component-scan base-package="com.wuchaooooo.study.activemq.producer"/>
+    <context:component-scan base-package="com.wuchaooooo.study.activemq.servlet"/>
 
     <import resource="application-context-mq.xml"></import>
     <import resource="application-context-thread.xml"></import>

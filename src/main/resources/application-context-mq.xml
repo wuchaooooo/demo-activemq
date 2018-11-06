@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="targetConnectionFactory" class="com.wuchaooooo.study.activemq.ExtActiveMQConnectionFactory"></bean>
+    <bean id="targetConnectionFactory" class="com.wuchaooooo.study.activemq.config.ExtActiveMQConnectionFactory"></bean>
 
     <bean id="connectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory">
         <property name="targetConnectionFactory" ref="targetConnectionFactory"></property>
